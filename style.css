@@ -1,0 +1,30 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+:root{
+ 
+ --font-principal:"Poppins";
+  --cor-texto:#A3951C;
+  --fundo-cabecalho:#009665;
+  --cor-principal:#FFFFFF;
+  --cor-lista:#99B59C;
+  --cor-lista-item:#004130;
+  --cor-texto-body: blanchedalmond;
+}
+
+body{
+  background: url("./imagem/Cmobile.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--font-principal);
+  font-size: 16px;
+  font-weight: 400;
+  
+  color: var(--cor-texto);
+ 
+}
+
+
+
